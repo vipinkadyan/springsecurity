@@ -11,7 +11,7 @@
 <!--Display user Name and Role-->
 User : <span sec:authentication="principal.username"></span><br>
 Role(s) : <span sec:authentication="principal.authorities"></span>
-<hr>
+<hr><hr>
 <form action="#" th:action="@{/logout}" method="POST">
     <input type="submit" value="Logout" />
 </form>
