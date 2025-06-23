@@ -9,7 +9,7 @@
 <h3>Welcome to Spring Security Home Page...</h3>
 <hr>
 <!--Display user Name and Role-->
-User : <span sec:authentication="principal.username"></span><br>
+User : <span sec:authentication="principal.username"></span><br><hr>
 Role(s) : <span sec:authentication="principal.authorities"></span>
 <hr><hr>
 <form action="#" th:action="@{/logout}" method="POST">
